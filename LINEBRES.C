@@ -28,7 +28,7 @@ void main()
 			p=p+2*dy;
 		}
 		x1=x1+1;
-		delay(100);       f
+		delay(100);       
 	}
 	getch();
 	closegraph();
