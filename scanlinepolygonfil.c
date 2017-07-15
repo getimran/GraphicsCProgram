@@ -37,7 +37,6 @@ for(i=0;i<n;i++)
 line(a[i][0],a[i][1],a[i+1][0],a[i+1][1]);
 }
 
-getch();
 
 
 for(i=0;i<n;i++)
@@ -83,9 +82,10 @@ setcolor(35);
 for(i=0;i<k;i+=2)
 {
 line(xi[i],y,xi[i+1]+1,y);
+delay(100);
+}
+
+}
 getch();
-}
-
-}
-
+  closegraph();
 }
